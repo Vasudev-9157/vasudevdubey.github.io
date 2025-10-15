@@ -48,8 +48,22 @@ url: "https://vasudev-9157.github.io" # the base hostname & protocol for your si
 instagram_url: https://www.instagram.com/curio.vasu91/
 linkedin_url: https://www.linkedin.com/in/vasudev-dubey-a17aa6244?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B5yB3jbmHRG2HZH7iJch2Gg%3D%3D
 github_url: https://github.com/Vasudev-9157
-
+gitlab_url: https://git.ligo.org/vasudev.dubey
 
 # The following settings are NECESSARY for the Prologue theme to run:
 theme: jekyll-theme-prologue
-collections: [sections]
+collections:
+  sections:
+  research:
+    output: true
+
+# Links to your sections
+sections:
+  - id: about
+  - id: projects
+  - id: publications
+  - id: contact
+
+markdown: kramdown
+kramdown:
+  math_engine: mathjax

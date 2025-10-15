@@ -1,0 +1,26 @@
+---
+layout: default
+---
+{%- assign _research = site.research | sort: 'date' | reverse -%}
+{%- include header.html scrolly_nav=_research -%}
+<!-- Main -->
+<div id="main">
+	{%- if page.content != "" -%}
+		{%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
+	{%- endif -%}
+	<!-- Research Projects List -->
+	{%- for _project in _research -%}
+		{%- capture _title -%}
+			<a href="{{- _project.url | absolute_url -}}">{{- _project.title -}}</a>
+		{%- endcapture -%}
+		{%- capture _subtitle -%}
+			{% if _project.status -%}{{- _project.status }} | {% endif %}
+			{% if _project.duration -%}{{- _project.duration }}{% endif %}
+			{% if _project.collaborators -%} | {{- _project.collaborators }}{% endif %}
+		{%- endcapture -%}
+		{%- capture _excerpt -%}<p>{{- _project.excerpt | strip_html | truncatewords: 80 -}}</p>{%- endcapture -%}
+		{%- capture _link -%}<a href="{{- _project.url | absolute_url -}}">learn more</a>{%- endcapture -%}
+		{%- assign _content = _excerpt | append: _link -%}
+		{%- include section.html title=_title subtitle=_subtitle content=_content -%}
+	{%- endfor -%}
+</div>

@@ -7,4 +7,27 @@ hide: true
 robots: noindex, nofollow
 canonical: false
 ---
-<p>The requested page could not be found.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Not Found</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <section class="error-page">
+    <header>
+      <h1>Oops! Page Not Found</h1>
+    </header>
+    <div class="content">
+      <p>Looks like you've found a black hole in my website. Unfortunately, this page is missing in action.</p>
+      <p>Don't worry, you’re not lost — you just took a wrong turn. Try checking the <a href="{{ '/' | relative_url }}">homepage</a> or <a href="{{ site.gitlab_url }}" target="_blank">check out my GitLab</a> instead.</p>
+    </div>
+    <footer>
+      <p>PS: Even the universe has its mysterious gaps!</p>
+    </footer>
+  </section>
+</body>
+</html>
+
