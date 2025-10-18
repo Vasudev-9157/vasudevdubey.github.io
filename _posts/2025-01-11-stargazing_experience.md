@@ -13,13 +13,60 @@ We started the journey at 11 am, and were supposed to reach by 3 pm, but guess w
 
 After 1.5 hours of boating, we finally made it to Bhandardara. That night? A life-changer. We had our dinner, gathered around a bonfire (because it was freezing), and then the KRITTIKA folks started setting up their telescopes. Meanwhile, I was busy flexing my Redmi 13 Pro 5G with its 108MP camera — capturing the night sky like a pro. This was my first time seeing at least a thousand stars (seriously, a thousand!), and the Quadrantid meteor shower was at its peak that night. I didn’t sleep a wink — I didn’t want to miss a single glimpse of the sky. My neck hurt from looking up so much, but it was worth it.
 
-The most emotional moment came when I saw myself, or at least my reflection, in the vast cosmos. No kidding! The stars felt so close. You could call it cheesy, but I was genuinely overwhelmed. And with the cold air, I couldn't even cry because, well, my tears would’ve frozen. 😅
+<span class="image left"><img src="{{ 'assets/images/Posts/Stargazing/Starry_Night.jpeg' | relative_url }}" alt="" style="width:300px; height:auto; border-radius:10px;" /></span>The most emotional moment came when I saw myself, or at least my reflection, in the vast cosmos. No kidding! The stars felt so close. You could call it cheesy, but I was genuinely overwhelmed. And with the cold air, I couldn't even cry because, well, my tears would’ve frozen. 😅
 
 As the night went on, I wrapped myself in a blanket, pulled out my phone, and caught the beginning of the 5th test of the Border Gavaskar Trophy (yeah, I’m a cricket fan). Just then, I realized that sunrise was about to happen! So, I rushed to capture a timelapse of it. The scene was so beautiful, and the warmth of the sunrise was exactly what I needed after the cold night. Of course, everyone else joined in to see it, and, naturally, some started blocking my view (no big deal, though).
 
 In the morning, we had Poha namkeen for breakfast, took a group photo, and then went for another boat ride — this time a mechanical one, thank goodness. 😅
 
-I came back home, not just with memories, but with a deep realization: we are not alone in this universe. We are just a tiny speck on a pale blue dot, part of this infinite cosmos. And as I always say now:
+I came back home, not just with memories, but with a deep realization: we are not alone in this universe. We are just a tiny speck on a pale blue dot, part of this infinite cosmos. 
+
+<div class="row">
+    <div class="5u 10u$(mobile)">
+      <div class="item">
+        <a href="#" class="image"><img src="{{ 'assets/images/Posts/Stargazing/Dipper.jpg' | relative_url }}" alt="" style="border-radius:10px;" /></a>
+        <header>
+          <h3>The Big Dipper <i>(Saptarshi)</i></h3>
+        </header>
+      </div>
+      <div class="item">
+        <a href="#" class="image"><img src="{{ 'assets/images/Posts/Stargazing/Telescope+Me.jpg' | relative_url }}" alt="" style="border-radius:10px;" /></a>
+        <header>
+          <h3>Me hugging (not my) telescope</h3>
+        </header>
+      </div>
+    </div>
+    <div class="5u 10u$(mobile)">
+      <div class="item">
+        <a href="#" class="image"><img src="{{ 'assets/images/Posts/Stargazing/Telescope_under_Stars.jpg' | relative_url }}" alt="" style="border-radius:10px;" /></a>
+        <header>
+          <h3>Telescope under the Cosmos</h3>
+        </header>
+      </div>
+      <div class="item">
+        <a href="#" class="image"><img src="{{ 'assets/images/Posts/Stargazing/Orion.jpg' | relative_url }}" alt="" style="border-radius:10px;" /></a>
+        <header>
+          <h3>Orion Constellation</h3>
+        </header>
+      </div>
+    </div>
+</div>
+<div class="row">
+    <div class="10u 20u$(mobile)">
+        <div class="item">
+            <a href="#" class="image">
+                <video controls playsinline loop muted style="width:100%; height:auto; border-radius:10px;" aria-label="Sunrise timelapse at Bhandardara">
+                    <source src="{{ 'assets/images/Posts/Stargazing/Sunrise_Timelapse.mp4' | relative_url }}" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+            </a>
+            <header>
+                <h3>Sunrise at Bhandardara</h3>
+            </header>
+        </div>
+    </div>
+</div>
+And as I always say now (actually <i>Truman Burbank</i> said):
 
 “Good Morning, in case I don’t see you, Good Afternoon, Good Evening, and Good Night, See Yaaa!”
 

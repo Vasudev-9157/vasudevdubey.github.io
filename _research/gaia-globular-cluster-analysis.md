@@ -1,10 +1,10 @@
 ---
 title: "GAIA Globular Cluster Analysis"
 layout: post
-date: 2024-03-15
-status: "Published"
-duration: "2022-2023"
-collaborators: "Stellar Dynamics Laboratory"
+date: 2024-01-05
+status: "Completed"
+duration: "Dec'23-Jan'24"
+collaborators: "KRITTIKA Astronomy Club, IIT Bombay"
 ---
 
 Comprehensive analysis of stellar populations in globular clusters using GAIA data release 3. This project leverages the unprecedented precision of space-based astrometry to understand stellar evolution and cluster dynamics.
@@ -148,16 +148,6 @@ The comprehensive technical report includes:
 - Extended figure gallery with high-resolution color-magnitude diagrams
 - Comparison tables with literature values
 - Complete reference list and acknowledgments
-
-## Publications
-
-**"Stellar Populations in Globular Clusters: A GAIA DR3 Analysis"**  
-*V. Dubey, et al.*, Monthly Notices of the Royal Astronomical Society (2023)  
-[DOI: 10.1093/mnras/stac3456](https://doi.org/10.1093/mnras/stac3456)
-
-**Conference Presentations:**
-- "GAIA Reveals Hidden Complexity in Globular Clusters" - KCAP 2023
-- "Precision Astrometry of Dense Stellar Systems" - IAU Symposium 351
 
 ## Data Products
 

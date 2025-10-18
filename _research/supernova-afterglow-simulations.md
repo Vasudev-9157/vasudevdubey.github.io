@@ -12,13 +12,13 @@ Gamma-Ray Bursts (GRBs) are among the most luminous explosions in the universe. 
 ## Scientific Motivation
 The key reasons to simulate GRB afterglows include:
 - **Ultra-relativistic jet physics:** Investigate shock propagation and jet interaction with the external medium.
-- **Astrophysical environments:** Constrain models of massive star collapse and neutron star mergers:contentReference[oaicite:41]{index=41}.
-- **Cosmology and evolution:** Use GRBs as probes of the early universe and cosmic expansion:contentReference[oaicite:42]{index=42}.
-- **Multi-messenger astronomy:** Relate GRB jets to gravitational wave events from compact mergers:contentReference[oaicite:43]{index=43}.
+- **Astrophysical environments:** Constrain models of massive star collapse and neutron star mergers.
+- **Cosmology and evolution:** Use GRBs as probes of the early universe and cosmic expansion.
+- **Multi-messenger astronomy:** Relate GRB jets to gravitational wave events from compact mergers.
 
 ## Simulation Framework
 
-### Hydrodynamic Code \& Visualization Software
+### Hydrodynamic Code & Visualization Software
 We use state-of-the-art computational fluid dynamics codes:
 - **PLUTO**: Modular code for computational astrophysics
 - **Custom Solvers**: Specialized Riemann solvers for shock physics
@@ -32,34 +32,35 @@ Initial conditions include a relativistic jet region between *r* = 50 and *r* = 
 - **Geometry:** 2D spherical (r,θ), axisymmetric (no φ-dependence).
 - **Grid Range:** r = 1 to 1000, θ = 0 to π/2.
 - **Time Domain:** t<sub>max</sub> = 10<sup>4</sup> with Δt = 100 (100 outputs).
-- **Jet Region:** 50 < r < 100; density = 2 × ambient, v = 0.1c, p = 10^-4 (jet).
+- **Jet Region:** 50 < r < 100; density = 2 × ambient, v = 0.1c, p = 10<sup>-4</sup> (jet).
 - **Lorentz Factors:** γ ≈ 50 (fast case) and γ = 20 (slow case).
 
-![Initial density and pressure profiles for the GRB jet simulation (fast jet, γ ≈ 50).](/assets/images/research/afterglow/Sedov%20model.png)
+<img src="/assets/images/research/afterglow/Sedov%20model.png" alt="Initial density and pressure profiles for the GRB jet simulation (fast jet, γ ≈ 50)." style="max-width:70%;height:auto;display:block;margin:0.5rem auto;" />
 
 ## Main Results
 
 The simulations reveal a dynamic interaction between the relativistic jet and the external medium. A strong forward shock propagates into the ambient ejecta, while a reverse shock travels back into the jet material. The jet drives a hot, over-pressured cocoon around the propagation axis. The following figures illustrate the time evolution of these quantities.
 
-![Evolution of density in the relativistic jet and ambient medium (fast jet case, γ=50).](/assets/images/research/afterglow//beta=0.9998 evolutions.png)  
+<img src="/assets/images/research/afterglow//beta=0.9998 evolutions.png" alt="Evolution of density in the relativistic jet and ambient medium (fast jet case, γ=50)." style="max-width:70%;height:auto;display:block;margin:0.5rem auto;" />
 *Figure: Density snapshots (normalized) at times t = 100, 1000, 5000, 8000, 10000 for the fast jet (γ=50). A clear forward shock and cocoon are visible.*
 
 In the fast jet case (γ ≈ 50), the maximum velocity approaches the speed of light. The shear at the jet boundary produces Kelvin–Helmholtz instabilities, evident as wavy structures along the interface. In the slower jet case (γ = 20), the jet advances more slowly and the resulting cocoon is broader and less collimated. The slower jet produces a weaker forward shock; internal shocks are more pronounced.
 
-![Evolution of Density, Pressure and Velocity for slow jets γ=20.](/assets/images/research/afterglow//gamma=20 evolutions.png)  
+<img src="/assets/images/research/afterglow//gamma=20 evolutions.png" alt="Evolution of Density, Pressure and Velocity for slow jets γ=20." style="max-width:70%;height:auto;display:block;margin:0.5rem auto;" />  
 *Figure: The slow jet yields a weaker shock and more diffuse cocoon.*
 
 <video width="640" height="480" controls>
-  <source src="/assets/images/research/afterglow/supernova_afterglow_simulation.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>  
+  <source src="/assets/images/research/afterglow/beta=0.9998_Density_Corrected.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 *Video: Animation of the GRB afterglow simulation.*
 
 
 ## Computational Challenges
 
 This project pushes the boundaries of computational astrophysics:
-- **Resolution**: Simulations with up to 10^9 computational cells
+- **Resolution**: Simulations with up to 10<sup>9</sup> computational cells
 - **Timesteps**: Following evolution for 10,000+ years
 - **Physics**: Coupling hydrodynamics, radiation, and magnetic fields
 
@@ -81,19 +82,11 @@ This project pushes the boundaries of computational astrophysics:
 - Extension to Type Ia supernova explosions
 - 3D simulations with full MHD physics
 - Integration with stellar evolution codes
-- Machine learning for pattern recognition in complex flows
 
 
 ## Full Report
 
 📄 **[Download Complete Research Report (PDF)]({{ '/assets/research/Supernova_afterglow_simulations_report.pdf' | relative_url }})**
-
-The comprehensive technical report includes:
-- Detailed mathematical formulations and numerical methods
-- Complete parameter studies and convergence analysis
-- High-resolution visualization gallery
-- Comparison with observational data
-- Appendices with code documentation
 
 ---
 
